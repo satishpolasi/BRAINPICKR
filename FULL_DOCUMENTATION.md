@@ -330,6 +330,7 @@ git config --global user.name "satish_polasi@yahoo.com"
 git add .
 git commit -m "commit"
 git push origin main
+git pull --no-rebase
 ```
 
 - When prompted:

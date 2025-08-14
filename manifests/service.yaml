@@ -4,7 +4,7 @@ metadata:
   name: llmops-service
 spec:
   selector:
-    app: topic-challenger-app
+    app: llmops-app
   ports:
     - port: 80
       targetPort: 8501  # default port for Streamlit

@@ -1,10 +1,10 @@
 pipeline {
     agent any
-   /*  environment {
-        DOCKER_HUB_REPO = "dataguru97/studybuddy"
+    environment {
+        DOCKER_HUB_REPO = "satishpolasi/brainpickr"
         DOCKER_HUB_CREDENTIALS_ID = "dockerhub-token"
         IMAGE_TAG = "v${BUILD_NUMBER}"
-    } */
+    }
     stages {
         stage('Checkout Github') {
             steps {
@@ -12,7 +12,7 @@ pipeline {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/satishpolasi/BRAINPICKR.git']])
             }
         }        
-        /* stage('Build Docker Image') {
+        stage('Build Docker Image') {
             steps {
                 script {
                     echo 'Building Docker image...'
@@ -30,7 +30,7 @@ pipeline {
                 }
             }
         }
-        stage('Update Deployment YAML with New Tag') {
+        /* stage('Update Deployment YAML with New Tag') {
             steps {
                 script {
                     sh """

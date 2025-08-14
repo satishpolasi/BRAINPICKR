@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: topic-challenger-app
+  name: llmops-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: topic-challenger-app
+      app: llmops-app
   template:
     metadata:
       labels:
-        app: topic-challenger-app
+        app: llmops-app
     spec:
       containers:
-      - name: topic-challenger-app
-        image: satishpolasi/topic_challenger:v15
+      - name: llmops-app
+        image: satishpolasi/brainpickr:latest
         ports:
         - containerPort: 8501
         env:
