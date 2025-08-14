@@ -334,7 +334,7 @@ git pull --no-rebase
 ```
 
 - When prompted:
-  - **Username**: `data-guru0`
+  - **Username**: `satish_polasi@yahoo.com`
   - **Password**: GitHub token (paste, it's invisible)
 
 ---
@@ -378,7 +378,7 @@ git pull origin main
 #### 🐳 Create DockerHub Repository
 
 1. Go to [https://hub.docker.com](https://hub.docker.com)
-2. Create a new repository, e.g., `dataguru97/testing-9`
+2. Create a new repository, e.g., `satishpolasi/BRAINPICKR`
 
 ---
 
@@ -393,7 +393,7 @@ git pull origin main
 #### ➕ Add DockerHub Credentials to Jenkins
 
 1. Go to **Jenkins → Manage Jenkins → Credentials → Global → Add Credentials**
-   - **Username**: DockerHub username (e.g., `dataguru97`)
+   - **Username**: DockerHub username (e.g., `satish_polasi@yahoo.com`)
    - **Password**: The DockerHub token
    - **ID**: `gitops-dockerhub`
    - **Description**: `DockerHub Access Token`
@@ -772,7 +772,7 @@ minikube tunnel
 * Open another SSH terminal and run port-forwarding:
 
 ```bash
-kubectl port-forward svc/my-service -n argocd --address 0.0.0.0 9090:80
+kubectl port-forward svc/llmops-service -n argocd --address 0.0.0.0 9090:80
 ```
 
 ---
@@ -798,7 +798,7 @@ http://<VM_EXTERNAL_IP>:9090
 1. Go to your **GitHub repo** → **Settings** → **Webhooks** → **Add webhook**.
 2. Fill in the details:
    - **Payload URL:**  
-     `http://34.72.5.170:8080/github-webhook/`  
+     `http://http://34.58.208.120:8080/github-webhook/`  
      *(Replace with your Jenkins URL)*
    - **Content type:** `application/json`
    - **Secret:** *(Not necessary, leave blank)*
