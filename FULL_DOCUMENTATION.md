@@ -35,9 +35,9 @@
 - **Clone your GitHub repo**
 
   ```bash
-  git clone https://github.com/satishpolasi/Topic_Challenger.git
+  git clone https://github.com/satishpolasi/BRAINPICKR.git
   ls
-  cd Topic_Challenger
+  cd BRAINPICKR
   ls  # You should see the contents of your project
   ```
 
@@ -325,7 +325,7 @@
 
 ```bash
 git config --global user.email "satish_polasi@yahoo.com"
-git config --global user.name "satish_polasi@yahoo.com
+git config --global user.name "satish_polasi@yahoo.com"
 
 git add .
 git commit -m "commit"
