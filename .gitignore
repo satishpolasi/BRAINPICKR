@@ -1,0 +1,5 @@
+venv/
+.env
+results/
+logs/
+BRAINPICKR.egg-info/
