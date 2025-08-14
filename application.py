@@ -22,7 +22,7 @@ def main():
         st.session_state.rerun_trigger = False
         
 
-    st.title("BRAINPICKR A1")
+    st.title("BRAINPICKR")
 
     st.sidebar.header("Quiz Settings")
 
