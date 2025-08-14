@@ -30,7 +30,7 @@ pipeline {
                 }
             }
         }
-        /* stage('Update Deployment YAML with New Tag') {
+        stage('Update Deployment YAML with New Tag') {
             steps {
                 script {
                     sh """
@@ -78,6 +78,6 @@ pipeline {
                     }
                 }
             } 
-        }*/
+        }
     }
 }
