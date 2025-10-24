@@ -1,9 +1,8 @@
 # Summary
 
 
-```bash
 ![image](https://github.com/satishpolasi/BRAINPICKR/blob/main/BRAINPICKR%20AI%20WORKFLOW.png)
-```
+
 
 ## 1. Initial Setup
 
