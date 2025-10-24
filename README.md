@@ -1,5 +1,5 @@
 # Summary
-This project is about generating Questions on any topic using AI
+This project is about generating Questions for any topic using AI
 
 ![image](https://github.com/satishpolasi/BRAINPICKR/blob/main/BRAINPICKR%20AI%20WORKFLOW.png)
 
